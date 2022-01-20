@@ -1,5 +1,18 @@
-
-body {
+.Header {
     text-align: center;
-    background-color:lightsalmon;
+}
+div {
+    
+    height: auto;
+    width: 700px;
+    border: 4px solid white;
+    padding: 50px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+h2 {
+    font-size: 25px;
 }
