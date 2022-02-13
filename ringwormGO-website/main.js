@@ -11,7 +11,7 @@ document.onreadystatechange = () =>
 
 function main()
 {
-    console.log("Enter main function");
+    console.log("Entered main function");
 }
 
 function theme()
