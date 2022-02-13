@@ -1,5 +1,6 @@
 /* Variables */
 var background_color = document.getElementById("back");
+var color = document;
 
 /* Functions */
 document.onreadystatechange = () =>
@@ -10,7 +11,7 @@ document.onreadystatechange = () =>
 
 function main()
 {
-    console.log("main function");
+    console.log("Enter main function");
 }
 
 function theme()

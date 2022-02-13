@@ -1,0 +1,14 @@
+.back
+{
+    color: white;
+    background-color: black;
+}
+
+button
+{
+    background-color: black;
+    color: white;
+    padding: 15px 15px;
+    display: inline-block;
+    font-size: 12px;
+}

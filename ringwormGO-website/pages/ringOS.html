@@ -1,15 +1,26 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Welcome</title>
-    <link href="../css/ringOS-style.css" rel="stylesheet" type="text/css" />
-  </head>
-  
-  <body>
-      
-  </body>
-  
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Welcome</title>
+		<link href="style2.css" rel="stylesheet" type="text/css" />
+		<script defer src="../main.js"></script>
+	</head>
+
+	<body>
+		<div id="back" class="back">
+			<div class="Button">
+				<button onclick="theme()">Change theme</button>
+			</div>
+			<div id="About" class="About">
+				<h1><font color="#FFFFFF">About ringOS and ringOSY</h1>
+				<h2>ringOS is ringwormGO operating system based on PonchoOS with support for UEFI boot mode only.</h2>
+                <h2>ringOS is keyboard oriented operating system with GUI elements.</h2>
+                <h2>This repo is for active development and invitation of new contributors to this project.</h2>
+				<button onclick="window.location.href='https://github.com/ringwormGO-organization/ringOS/releases/tag/ringOSv2.0.0';">Download latest ringOS version</button>
+			</div>
+		</div>
+	</body>
 </html>
