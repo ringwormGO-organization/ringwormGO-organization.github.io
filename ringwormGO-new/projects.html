@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body style="background-color: var(--bs-gray-dark);">
+<body>
     <nav class="navbar navbar-light navbar-expand-md py-3" style="background-color: var(--bs-gray-700);">
         <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon"><img src="assets/img/logo.png" style="height: 32px;"></span><span style="color: white;font-size: 20px;font-weight: bold;">ringwormGO</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-2">
@@ -29,33 +29,45 @@
         </div>
     </nav>
     <header>
-        <h1 style="color: white;text-align: center;padding-top: 5rem;">FAQ</h1>
+        <h1 style="color: white;text-align: center;padding-top: 5rem;">Projects</h1>
     </header>
     <section class="py-5 bg-light" style="background-color: var(--bs-gray-dark) !important;">
-        <div class="container"><div class="row">
-    <div class="col-md-6 col-xl-6 offset-md-3 offset-xl-3">
-        <div id="faqlist" class="accordion accordion-flush">
-            <div class="accordion-item">
-                <h2 class="accordion-header"><button class="btn accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#content-accordion-1">How did ringwormGO company start?</button></h2>
-                <div id="content-accordion-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                    <p class="accordion-body"> With web-browser. Editors/IDEs which we use for programming: Visual Studio Code, Vim and Neovim.</p>
+        <div class="container py-4 py-xl-5" style="color: white;">
+            <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
+                <div class="col">
+                    <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" src="https://user-images.githubusercontent.com/83548580/142688916-7d1e3b52-946d-441e-acf1-137eb4c534c3.png">
+                        <div class="py-4">
+                            <h4>ringOS (archived)</h4>
+                            <p>ringOS is <span style="color: rgb(49, 237, 237);">archived</span> operating system. Development started in September 2021. Then in June 2022 we switched to Limine boot protocol and because of <span style="color: rgb(49, 237, 237);">complexity of project,</span> ringOS became archived.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header"><button class="btn accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#content-accordion-2">Who is owner of company?</button></h2>
-                <div id="content-accordion-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                    <p class="accordion-body"> Andrej and Stjepan</p>
+                <div class="col">
+                    <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" src="assets/img/termi.png">
+                        <div class="py-4">
+                            <h4>Termi</h4>
+                            <p>Termi is a <span style="color: rgb(49, 237, 237);">powerful terminal</span> written in <span style="color: rgb(243, 96, 11);">C++ using OpenGL and Dear ImGui.</span> The goal is to create <span style="color: rgb(49, 237, 237);">independet terminal</span> which use OpenGL and Dear ImGui to render and has <span style="color: rgb(243, 96, 11);">own commands</span>, commands are not from executables from host operating system. Windows version is less synced and also Windows version has <span style="color: rgb(49, 237, 237);">GUI launcher/updater</span>&nbsp;<span style="color: rgb(243, 96, 11);">written in C# and XAML.</span></p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header"><button class="btn accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#content-accordion-3">Are ringwormGO products free?</button></h2>
-                <div id="content-accordion-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                    <p class="accordion-body"> They are FOSS, free and open source</p>
+                <div class="col">
+                    <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" src="assets/img/termi.png">
+                        <div class="py-4">
+                            <h4>Termi-Lua</h4>
+                            <p>Termi-Lua is Lua version of Termi. It <span style="color: rgb(49, 237, 237);">doesn't use OpenGL, Dear ImGui or any other graphics library</span> Because it doesn't use graphics library and it is written in Lua it is very <span style="color: rgb(243, 96, 11);">easy to port.</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" src="assets/img/cmbal.png">
+                        <div class="py-4">
+                            <h4>Cmbal</h4>
+                            <p>Small programming language <span style="color: rgb(49, 237, 237);">written in C.</span> It is <a href="https://github.com/ringwormGO-organization/mbal">mbal</a> clone.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</div></div>
     </section>
     <footer class="text-center bg-dark" style="margin-top: 25rem;">
         <div class="container text-white py-4 py-lg-5" style="padding-top: 25rem;">

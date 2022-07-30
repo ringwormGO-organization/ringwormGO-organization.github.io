@@ -35,3 +35,16 @@
   transform: rotate(0deg);
 }
 
+body {
+  background-color: var(--bs-gray-dark);
+}
+
+#main {
+}
+
+.text {
+}
+
+#paragraph {
+}
+
