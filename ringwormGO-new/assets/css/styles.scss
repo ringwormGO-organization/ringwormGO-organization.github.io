@@ -1,0 +1,44 @@
+:root
+{
+    --bg-color: var(--bs-gray-dark);
+    --fg-color: white;
+    --bg-accordion-color: white;
+    --fg-accordion-color: black;
+}
+
+@mixin theme
+{
+    background-color: var(--bg-color);
+    color: var(--fg-color);
+}
+
+@mixin accordion-theme
+{
+    background-color: var(--bg-accordion-color);
+    color: var(--fg-accordion-color);
+}
+
+body
+{
+    @include theme;
+}
+
+.text
+{
+    @include theme;
+}
+
+.row
+{
+    @include theme;
+}
+
+.accordion-item
+{
+    @include accordion-theme;
+}
+
+.py-5 bg-light
+{
+    @include theme;
+}

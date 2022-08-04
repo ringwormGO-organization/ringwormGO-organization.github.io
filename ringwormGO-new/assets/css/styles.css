@@ -1,0 +1,31 @@
+:root {
+  --bg-color: var(--bs-gray-dark);
+  --fg-color: white;
+  --bg-accordion-color: white;
+  --fg-accordion-color: black;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--fg-color);
+}
+
+.text {
+  background-color: var(--bg-color);
+  color: var(--fg-color);
+}
+
+.row {
+  background-color: var(--bg-color);
+  color: var(--fg-color);
+}
+
+.accordion-item {
+  background-color: var(--bg-accordion-color);
+  color: var(--fg-accordion-color);
+}
+
+.py-5 bg-light {
+  background-color: var(--bg-color);
+  color: var(--fg-color);
+}/*# sourceMappingURL=styles.css.map */
