@@ -21,6 +21,7 @@ assets/
 │  ├─ bs-init.js - some stuff, don't touch it!
 │  ├─ index.js - main js file, there is theme changer code
 ├─ img/ - images
+├─ fonts/ - fonts
 ├─ bootstrap/
 │  ├─ css/ - css bootstrap code, don't touch it!
 │  ├─ js/ - js bootstrap code, don't touch it!
