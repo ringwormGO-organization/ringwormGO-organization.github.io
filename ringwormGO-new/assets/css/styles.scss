@@ -1,44 +1,40 @@
-:root
-{
+:root {
     --bg-color: var(--bs-gray-dark);
     --fg-color: white;
     --bg-accordion-color: white;
     --fg-accordion-color: black;
+    --fg-accordion-not-collapsed-color: #ff9800;
+    --border-accordion: none;
 }
 
-@mixin theme
-{
+@mixin theme {
     background-color: var(--bg-color);
     color: var(--fg-color);
 }
 
-@mixin accordion-theme
-{
+@mixin accordion-theme {
     background-color: var(--bg-accordion-color);
     color: var(--fg-accordion-color);
 }
 
-body
-{
+body {
     @include theme;
 }
 
-.text
-{
+.text {
     @include theme;
 }
 
-.row
-{
+.row {
     @include theme;
 }
 
-.accordion-item
-{
+.py-5 bg-light {
+    @include theme;
+}
+
+.accordion-item {
     @include accordion-theme;
 }
 
-.py-5 bg-light
-{
-    @include theme;
-}
+@import "accordion.scss";
