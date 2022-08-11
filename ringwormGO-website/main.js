@@ -1,5 +1,5 @@
 /* Variables */
-var background_color = document.getElementById("back");
+var background_color = document.querySelector("body");
 var color = document;
 
 /* Functions */
@@ -17,9 +17,14 @@ function main()
 function theme()
 {
     if (background_color.style.backgroundColor != "black")
+    {
         var isDarkTheme = false;
+    }
+
     else
+    {
         var isDarkTheme = true;
+    }
 
     if (isDarkTheme == false)
     {
