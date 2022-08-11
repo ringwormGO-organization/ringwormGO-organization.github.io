@@ -1,8 +1,8 @@
 # ringwormGO-website
 Website for ringwormGO hosted in https://replit.com/
 
-# [Standard website](https://ringwormgo-web.ringwormgo.repl.co/) (updates may late)
-# [New website](https://ringwormgo-website-new.ringwormgo.repl.co/) (updates may late)
+## [Standard website](https://ringwormgo-web.ringwormgo.repl.co/) (updates may late)
+## [New website](https://ringwormgo-website-new.ringwormgo.repl.co/) (updates may late)
 
 [For contributors!](https://github.com/ringwormGO-organization/Website/blob/main/CONTRIBUTING.md)
 
