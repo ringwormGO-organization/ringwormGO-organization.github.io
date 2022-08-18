@@ -7,3 +7,5 @@ Website for ringwormGO hosted in https://replit.com/
 [For contributors!](https://github.com/ringwormGO-organization/Website/blob/main/CONTRIBUTING.md)
 
 Just to know, both website are functional, standard one is designed for older computers/platforms and new one for newer computers/platforms and has better design
+
+New website was mainly created by [@karlo292](https://github.com/karlo292)
