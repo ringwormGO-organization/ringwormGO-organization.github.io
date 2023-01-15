@@ -1,5 +1,5 @@
 function CalculatePercentage(num) {
-    const number_of_repos = 17;
+    const number_of_repos = 26;
 
     return (num / number_of_repos) * 100;
 }
