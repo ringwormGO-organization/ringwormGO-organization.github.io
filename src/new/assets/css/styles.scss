@@ -37,4 +37,13 @@ body {
     @include accordion-theme;
 }
 
+.hidden {
+    opacity: 0;
+    transition: all 0.65s;
+}
+
+.show {
+    opacity: 1;
+}
+
 @import "accordion.scss";

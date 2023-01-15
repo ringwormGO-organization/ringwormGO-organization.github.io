@@ -32,6 +32,15 @@ body {
   color: var(--fg-accordion-color);
 }
 
+.hidden {
+  opacity: 0;
+  transition: all 0.65s;
+}
+
+.show {
+  opacity: 1;
+}
+
 .accordion collapse {
   border: 0;
 }
