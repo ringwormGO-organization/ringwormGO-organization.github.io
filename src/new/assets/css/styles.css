@@ -12,6 +12,70 @@ body {
   color: var(--fg-color);
 }
 
+a {
+  color: var(--fg-color);
+}
+
+.fa-github:hover {
+  color: black;
+}
+
+.fa-gitea:hover {
+  color: rgb(96, 153, 38);
+}
+
+.fa-youtube-play:hover {
+  color: red;
+}
+
+.fa-discord-alt:hover {
+  color: rgb(155, 224, 247);
+}
+
+.fa-matrix-org:hover {
+  color: rgb(13, 189, 139);
+}
+
+/* Thanks to ChatGPT for this part */
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.contacts a {
+  margin: 10px;
+}
+@media screen and (max-width: 768px) {
+  .contacts {
+    flex-direction: column;
+  }
+}
+.contacts .contacts-title-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.contacts .contacts-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+.contacts .icons-row-1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.contacts .icons-row-2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.contacts .icons-row-3 {
+  display: flex;
+  justify-content: center;
+}
+
 .text {
   background-color: var(--bg-color);
   color: var(--fg-color);
