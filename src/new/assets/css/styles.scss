@@ -108,6 +108,14 @@ a {
     @include theme;
 }
 
+.col {
+    a {
+        &:hover {
+            color: lightblue;
+        }
+    }
+}
+
 .py-5 bg-light {
     @include theme;
 }
