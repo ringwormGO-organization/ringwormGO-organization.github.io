@@ -14,7 +14,8 @@ languages.set("Inno Setup", [CalculatePercentage(1), "#264B99"]);
 languages.set("Javascript", [CalculatePercentage(1), "#F1E05A"]);
 languages.set("Lua", [CalculatePercentage(2), "#000080"]);
 languages.set("PHP", [CalculatePercentage(1), "#4F5D95"]);
-languages.set("Python", [CalculatePercentage(4), "#3572a5"]);
+languages.set("Python", [CalculatePercentage(3), "#3572a5"]);
+languages.set("Rust", [CalculatePercentage(1), "#DEA584"]);
 languages.set("VB.NET", [CalculatePercentage(1), "#945db7"]);
 languages.set("Without language", [CalculatePercentage(2), "gray"]);
 
