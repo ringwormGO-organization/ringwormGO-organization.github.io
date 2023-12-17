@@ -15,6 +15,10 @@ body {
   background-color: black;
 }
 
+a {
+  color: rgb(132, 213, 216);
+}
+
 .About {
   height: auto;
   width: 700px;
