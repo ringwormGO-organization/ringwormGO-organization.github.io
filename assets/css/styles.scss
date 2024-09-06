@@ -49,6 +49,12 @@ a {
     }
 }
 
+.fa-envelope {
+    &:hover {
+        color: #FED431;
+    }
+}
+
 /* Thanks to ChatGPT for this part */
 .contacts {
     display: flex;
