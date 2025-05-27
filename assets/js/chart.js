@@ -1,5 +1,5 @@
 function CalculatePercentage(num) {
-    const number_of_repos = 33;
+    const number_of_repos = 31;
 
     return (num / number_of_repos) * 100;
 }
@@ -9,13 +9,12 @@ var languages = new Map();
 languages.set("C", [CalculatePercentage(5), "#555555"]);
 languages.set("C#", [CalculatePercentage(2), "#178600"]);
 languages.set("C++", [CalculatePercentage(10), "#f34b7d"]);
-languages.set("CMake", [CalculatePercentage(1), "#DA3434"]);
 languages.set("HTML", [CalculatePercentage(2), "#E34C26"]);
 languages.set("Inno Setup", [CalculatePercentage(1), "#264B99"]);
 languages.set("Javascript", [CalculatePercentage(1), "#F1E05A"]);
 languages.set("Lua", [CalculatePercentage(2), "#000080"]);
 languages.set("PHP", [CalculatePercentage(1), "#4F5D95"]);
-languages.set("Python", [CalculatePercentage(4), "#3572a5"]);
+languages.set("Python", [CalculatePercentage(3), "#3572a5"]);
 languages.set("Rust", [CalculatePercentage(1), "#DEA584"]);
 languages.set("VB.NET", [CalculatePercentage(1), "#945db7"]);
 languages.set("Without language", [CalculatePercentage(2), "gray"]);
