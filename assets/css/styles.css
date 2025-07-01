@@ -36,6 +36,10 @@ a {
   color: #FED431;
 }
 
+.referrals a {
+  color: rgb(243, 96, 11);
+}
+
 /* Thanks to ChatGPT for this part */
 .contacts {
   display: flex;
