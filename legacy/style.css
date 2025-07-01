@@ -63,6 +63,17 @@ a {
   text-align: center;
 }
 
+.Referrals {
+  height: auto;
+  width: 700px;
+  border: 4px solid wheat;
+  padding: 50px;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
 @keyframes animate {
     0% {
         color: red;
